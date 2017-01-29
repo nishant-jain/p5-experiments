@@ -7,4 +7,4 @@ Current experiment has a random walker described in the video with then followin
 - mirror image
 
 One minor issue with the current follow method is the step which gets screwed up when the mouse is pressed. I wanted it to keep doing random walk + follow the mouse, which basically upsets the standard step size to a value of normal step + x, where x is added by the follow function. So, the walk starts looking a bit fast when the mouse is pressed.
-
+![Generated pattern](../master/generated/2.png?raw=true "Generated mirror walk")
